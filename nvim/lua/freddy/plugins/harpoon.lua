@@ -1,0 +1,23 @@
+return {
+  -- 
+  -- --quick tab switching 
+  -- 'ThePrimeagen/harpoon',
+  -- branch = 'harpoon2',
+  -- dependencies = {
+  --   "nvim-lua/plenary.nvim",
+  -- },
+  -- config = function()
+  --   --harpoo keymapharpoon2s-----
+  --   local mark = require("harpoon.mark")
+  --   local ui = require("harpoon.ui")
+  --   local keymap = vim.keymap
+  --   keymap.set("n","<leader>a",mark.add_file, {desc = "launch harpoon to file"})
+  --   keymap.set("n","<C-e>",ui.toggle_quick_menu, {desc = "toggle harpoon ui"})
+  --   --switch between harpooned tabs
+  --   keymap.set("n","<C-a>",function() ui.nav_file(1) end, {desc = "switch harpoon files"})
+  --   keymap.set("n","<C-s>",function() ui.nav_file(2) end, {desc = "switch harpoon files"})
+  --   keymap.set("n","<C-d>",function() ui.nav_file(3) end, {desc = "switch harpoon files"})
+  --   keymap.set("n","<C-f>",function() ui.nav_file(4) end, {desc = "switch harpoon files"})
+  -- end,
+  --
+}
