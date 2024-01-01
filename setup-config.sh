@@ -8,7 +8,8 @@ repo_path=~/MacTermDotfiles
 
 # Function to prompt user for confirmation
 confirm() {
-    read -p "Do you want to overwrite your existing $1? (y/n): " response
+    echo -n "Do you want to overwrite your existing $1? (y/n): " 
+    read response
     if [[ $response =~ ^[Yy]$ ]]; then
         return 0  # Return true if user confirms
     else
