@@ -1,7 +1,7 @@
 # Mac Terminal Setup Guide
 
 ## Description
-2jtest
+
 ---
 
 🚀 **Terminal Customization Journey**
