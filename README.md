@@ -338,4 +338,3 @@ personally walk you through it.
    ```zsh
    brew install tmux
    ```
-# MacTermDotfiles
