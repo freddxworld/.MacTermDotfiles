@@ -3,7 +3,7 @@
 ## Description
 
 ---
-
+test
 🚀 **Terminal Customization Journey**
 
 Embark on a thrilling adventure to optimize your terminal experience! Is the idea of configuring your Mac terminal, setting up Zsh, Tmux, and exploring Neovim a bit overwhelming? Fear not!
