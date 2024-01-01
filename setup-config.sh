@@ -25,7 +25,7 @@ replace_or_create_symlink() {
     if [ -e "$target_file" ]; then
         confirm "$target_file" || return  # Skip if user cancels
         echo "Replacing existing $target_file."
-        cp "$source_file" "$target_file"  # Copy content from source to target
+        cp -r "$source_file" "$target_file"  # Copy content from source to target
     else
         echo "Creating new $target_file."
     fi
