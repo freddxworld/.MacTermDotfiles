@@ -4,7 +4,7 @@
 echo "Starting configuration"
 
 # Path to the cloned repository
-repo_path=~/MacTermDotfiles
+repo_path=~/.MacTermDotfiles
 
 # Function to prompt user for confirmation
 confirm() {
